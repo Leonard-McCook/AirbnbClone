@@ -11,6 +11,7 @@
 		D783D1B22AE72D37005B13B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783D1B12AE72D37005B13B9 /* ContentView.swift */; };
 		D783D1B42AE72D3A005B13B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D783D1B32AE72D3A005B13B9 /* Assets.xcassets */; };
 		D783D1B72AE72D3A005B13B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D783D1B62AE72D3A005B13B9 /* Preview Assets.xcassets */; };
+		D783D1C22AE7F526005B13B9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783D1C12AE7F526005B13B9 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D783D1B12AE72D37005B13B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D783D1B32AE72D3A005B13B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D783D1B62AE72D3A005B13B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D783D1C12AE7F526005B13B9 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				D783D1BE2AE736E0005B13B9 /* Models */,
 				D783D1BD2AE736D7005B13B9 /* Views */,
 				D783D1AF2AE72D37005B13B9 /* AirbnbCloneApp.swift */,
-				D783D1B12AE72D37005B13B9 /* ContentView.swift */,
 				D783D1B32AE72D3A005B13B9 /* Assets.xcassets */,
 				D783D1B52AE72D3A005B13B9 /* Preview Content */,
 			);
@@ -74,6 +75,7 @@
 		D783D1BD2AE736D7005B13B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D783D1B12AE72D37005B13B9 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +97,7 @@
 		D783D1C02AE736F6005B13B9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D783D1C12AE7F526005B13B9 /* APIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D783D1B22AE72D37005B13B9 /* ContentView.swift in Sources */,
+				D783D1C22AE7F526005B13B9 /* APIService.swift in Sources */,
 				D783D1B02AE72D37005B13B9 /* AirbnbCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
