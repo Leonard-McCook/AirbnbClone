@@ -8,15 +8,19 @@
 import Foundation
 
 struct AirbnbListing: Codable {
-    let id: String
-    let listing_url: String
-    let name: String
-    let summary: String
-    let description: String
-    let house_rules: String
-    let thumbnail_url: String
-    let medium_url: String
-    let x1_picture_url: String
+    let id: String?
+    let listing_url: String?
+    let name: String?
+    let summary: String?
+    let space: String?
+    let description: String?
+    let house_rules: String?
+    let thumbnail_url: String?
+    let medium_url: String?
+    let x1_picture_url: String?
+    let neigbourhood: String?
+    let amenities: [String]?
+    let price: Int?
     
     // Host details
     let host_name: String
