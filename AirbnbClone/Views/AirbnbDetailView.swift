@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct AirbnbDetailView: View {
+    let model: AirbnbListing
+    
     var body: some View {
-        Text("")
+        ScrollView(.vertical) {
+            // Picture
+            
+            // Info
+            
+            //Host Info
+        }
     }
-}
-
-#Preview {
-    AirbnbDetailView()
 }
